@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "api": "cd api && mvn spring-boot:run",
-    "llm": "cd llm-service && python main.py"
+    "server": "cd app && python main.py",
+    "docker": "docker-compose up -d"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.7",
